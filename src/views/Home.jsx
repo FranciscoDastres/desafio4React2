@@ -1,9 +1,9 @@
-import { Button } from 'react-bootstrap';
+
 import { PizzaContext } from '../contexts/PizzaContext';
 import { useContext } from 'react';
 import Card from 'react-bootstrap/Card';
 import { useNavigate } from 'react-router-dom';
-
+import ButtonDetails from '../components/Button';
 
 
 const Home = () => {
@@ -14,12 +14,7 @@ const Home = () => {
     navigate(`/PizzaDetails/${pizzaId}`);
  };
 
- const ButtonDetails = ({ colorButton, textButton, PizzaDetalle, PizzaId }) => {
-  return (<> <Button variant={colorButton} onClick={() => 
-  PizzaDetalle(PizzaId)}>
-               {textButton} 
-               </Button> </>);
- };
+
  
  return (
     <div className="container gallery pt-5">

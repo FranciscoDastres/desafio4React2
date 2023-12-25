@@ -33,7 +33,7 @@ const Cart = () => {
           <div key={pizza.id}>
             <Row className="mb-2">
               <Col xs={2}>
-                <Image classNamesrc={pizza.img} alt={pizza.name} thumbnail   />
+                <Image src={pizza.img} alt={pizza.name} thumbnail   />
               </Col>
               <Col xs={4}>{pizza.name}</Col>
               <Col className="d-flex gap-2" xs={6}>

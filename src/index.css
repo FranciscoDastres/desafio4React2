@@ -1,0 +1,64 @@
+
+body {
+  font-style: oblique;
+  font-size: x-large;
+  background-image: url("/src/assets/img/pizzaBackground.png");
+
+}
+
+body {
+      height: 100vh;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+
+/* Navbar */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background: #c70707;
+  padding: 20px;
+  color: white;
+}
+
+.IconoPizza{
+  width: 1em;
+  height: 1em;
+}
+
+.carritop{
+  height: 3%;
+  width: 3%;
+}
+.nav-link {
+  font-size: 1.5em; 
+  margin-right: 30px; 
+  color: white;
+}
+
+.totalCart{
+  margin-right: auto;  
+}
+
+.active{
+  color:black
+}
+/* img pizza details */
+.imgPizzaDetails{
+
+  width: max-content;
+  height: max-content;
+}
+/* pizza not found */
+.pizzaNotFound{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

@@ -3,7 +3,7 @@ import { PizzaContext } from '../contexts/PizzaContext';
 import { useContext } from 'react';
 import Card from 'react-bootstrap/Card';
 import { useNavigate } from 'react-router-dom';
-import ButtonDetails from '../components/Button';
+import ButtonDetails from '../components/ButtonDetails';
 
 
 const Home = () => {
